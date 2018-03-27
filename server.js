@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
-app.listen(process.env.PORT, () => console.log('app started'));
+app.listen(process.env.PORT || 3000, () => console.log('app started'));
 
 const users = [{
   username: 'scars',
