@@ -7,6 +7,6 @@
 1. 執行 `npm install` 或 `yarn`
 1. 執行 `npm run start` 或 `yarn run start`
 
-程式會在 http://localhost:300 開啟一個虛擬伺服器
+程式會在 http://localhost:3000 開啟一個虛擬伺服器
 
 讓你的前端程式可以呼叫這個範例 API
