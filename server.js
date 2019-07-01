@@ -5,6 +5,8 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
+app.options('*', cors()); // pre-flight
+
 app.listen(process.env.PORT || 3000, () => console.log('app started'));
 
 const users = [{
